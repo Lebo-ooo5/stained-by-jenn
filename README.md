@@ -39,10 +39,16 @@ TML structure 18 september 2026
 
 Testing and submission 
 
-sitemapmap
-homepage, booking, about us, contact
-nces 
+sitemap
+homepage is the main page
+about us page we have information in what the business is about and the
+booking page is where you choose a timeslot on what time you would like do  your set
+the gallery page shows you what design you would like to do 
+contact us is where the location and the business numbers are and also the email
+
+
+
 
 Stained.By.Jenn, 2025. [Instagram]. Available at: https://www.bing.com/ck/a?!&&p=9ecaec9ab3a46e1805874f2eda920214c2e04db8d9eeb8a627234dee3f961c0bJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9zdGFpbmVkLmJ5Lmplbm4vcmVlbHMv [Assessed 12 August 2026]. 
 
-Stainedbyjenn., 2024. Soweto masterpiece by Stained By Jenn [TikTok]. Available at: https://www.bing.com/ck/a?!&&p=f3d8ffc64a67aa4a53da170336a7456b9ae5ef7312baff46b88ff0271c163e9fJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cudGlrdG9rLmNvbS9Ac3RhaW5lZGJ5amVubi92aWRlby83NjM3MTcwNzg2MjA1NDUzNTg5
+Stainedbyjenn., 2024. Soweto masterpiece by Stained By Jenn [TikTok]. Available at: https://www.bing.com/ck/a?!&&p=f3d8ffc64a67aa4a53da170336a7456b9ae5ef7312baff46b88ff0271c163e9fJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cudGlrdG9rLmNvbS9Ac3RhaW5lZGJ5amVubi92aWRlby83NjM3MTcwNzg2MjA1NDUzNTg5 [Assessed 12 August 2026]
