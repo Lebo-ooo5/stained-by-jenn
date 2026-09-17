@@ -27,6 +27,7 @@ Homepage: an eye-catching hero image of featured nail work, brief introduction a
 About us: style of art and customer service 
 
 Services and gallery page: a list of available nail treatments and designs along with prices 
+#cha
 
 Contact page: location opening hours and a contact number
 timeline and milestones 
@@ -45,6 +46,22 @@ about us page we have information in what the business is about and the
 booking page is where you choose a timeslot on what time you would like do  your set
 the gallery page shows you what design you would like to do 
 contact us is where the location and the business numbers are and also the email
+#change log
+Fixed <link> stylesheet placement inside <head> on all pages
+Removed duplicate <header> tags
+Fixed broken image paths (../Root/Images/ → ../Images/)
+Removed all inline styles, centralized into Style.css
+Fixed unclosed <head>, <div>, and <body> tags
+Corrected missing closing </footer> on Contact page
+Standardized navigation across all 5 pages
+Fixed footer floating mid-page by adding flexbox layout
+Unified responsive navigation bar with active page indicator
+Soft pink brand color palette applied site-wide
+Gallery rebuilt as responsive CSS Grid with service cards
+Booking form redesigned with larger inputs and pink background
+Contact page rebuilt as centered white card with Google Map
+Sticky footer added with dark charcoal theme
+Full mobile responsiveness across all pages
 
 
 
