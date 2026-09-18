@@ -1,36 +1,68 @@
 stained.by.jenn
 # stained-by-jenn
-this repository is made to store files and code for a existing nail business stained.by jenn
-student information
-MakoboSeoka
-ST10480566
-Project overview
-stainedby jenn demonstrates that she is nail technology and beauty company thru short videos and posts that does well on social media 
+This repository contains the files and source code for the existing nail business, Stained.By.Jenn. It was developed as a student project for a Web Development assignment.
+
+Student Information:
+
+Name: MakoboSeoka
+
+Student Number: ST10480566
+
+The project demonstrates that Stained.By.Jenn is a nail technology and beauty company that leverages short videos and social media posts to grow its brand presence online.
 
 
 Mission  
+To provide clients with exquisitely designed, fashionable nails and beauty treatments in a friendly, knowledgeable, and meticulous environment — while proving that handmade craftsmanship and personalized care can never be replaced by mass production.
 
-Our mission is to provide clients with exquisitely designed fashionable nails and beauty treatments in a friendly knowledgeable and meticulous environment  
+At Stained.By.Jenn, every client is treated with care and attention. Our goal is to create beautiful results while making every visit enjoyable and memorable. Whether you are looking for a fresh look, a special occasion style, or simply some time to treat yourself, we specialize in creating and designing the most beautiful sets. We deliver quality and long-lasting nail sets, and we are a passionate beauty brand dedicated to helping our clients feel their best.
+
+
+
 
 Vision  
 
-To grow stained.by.jenn into one of Soweto’s most sought-after nail studios known for consistently high-quality camera-ready nail art  
+to grow Stained.By.Jenn into one of Soweto's most sought-after nail studios — known for consistently high-quality, camera-ready nail art, exceptional customer service, and a commitment to keeping up with the latest beauty trends.
 
+We envision a future where Stained.By.Jenn is the go-to destination for young women in Soweto and the surrounding Johannesburg area who want dependable, fashionable nail treatments. We aim to build a brand that not only delivers beautiful nails but also creates a warm, welcoming space where every client feels valued, confident, and beautiful
 Target audience  
 
 Stainedbyjenn showcases young women in Soweto and the surrounding Johannesburg area especially those who want to be dependable fashionable nail treatments and follow beauty trends on social media  
 storing files for web development assignment
 Proposed website features and functionality 
+1. Homepage (index.html)
+An eye-catching hero image featuring featured nail work.
 
-Homepage: an eye-catching hero image of featured nail work, brief introduction and a call-to-action book an appointment 
+A brief introduction to the brand.
 
-About us: style of art and customer service 
+A clear call-to-action button: "Book an Appointment".
 
-Services and gallery page: a list of available nail treatments and designs along with prices 
+2. About Us (About-us.html)
+The style of art and customer service philosophy.
+
+Company mission, vision, and target audience.
+
+Visual gallery of signature looks.
+
+3. Gallery (Gallery.html)
+A curated grid of high-quality nail art photos.
+
+Categorised designs (e.g., French tips, acrylics, custom art).
+
+4. Booking (Book.html)
+A secure and easy-to-use booking form.
+
+Fields include: Email, Phone Number, Preferred Date, and Notes.
+
+Submit button with form validation.
+
+5. Contact Us (Contact-Us.html)
+Direct contact information (phone, email).
+
+Location details and operating hours.
+
+Social media links (Instagram, Facebook, TikTok).
 
 
-Contact page: location opening hours and a contact number
-timeline and milestones 
 
 Proposal approval 13 August 2026
 
