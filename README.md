@@ -11,15 +11,12 @@ Student Number: ST10480566
 The project demonstrates that Stained.By.Jenn is a nail technology and beauty company that leverages short videos and social media posts to grow its brand presence online.
 
 
-Mission  
+#Mission  
 To provide clients with exquisitely designed, fashionable nails and beauty treatments in a friendly, knowledgeable, and meticulous environment — while proving that handmade craftsmanship and personalized care can never be replaced by mass production.
 
 At Stained.By.Jenn, every client is treated with care and attention. Our goal is to create beautiful results while making every visit enjoyable and memorable. Whether you are looking for a fresh look, a special occasion style, or simply some time to treat yourself, we specialize in creating and designing the most beautiful sets. We deliver quality and long-lasting nail sets, and we are a passionate beauty brand dedicated to helping our clients feel their best.
 
-
-
-
-Vision  
+#Vision  
 
 to grow Stained.By.Jenn into one of Soweto's most sought-after nail studios — known for consistently high-quality, camera-ready nail art, exceptional customer service, and a commitment to keeping up with the latest beauty trends.
 
@@ -63,12 +60,51 @@ Location details and operating hours.
 Social media links (Instagram, Facebook, TikTok).
 
 
-
+#time line
 Proposal approval 13 August 2026
 
 Research and content 14 august 2026
 
 TML structure 18 september 2026
+18 September 2026 — Initial project setup, created repository and folder structure.
+
+18 September 2026 — Created homepage with hero image and navigation.
+
+18 September 2026 — Built About Us page with mission, vision, and target audience.
+
+18 September 2026 — Created Gallery page with nail art grid.
+
+18 September 2026 — Designed booking form with basic fields (date and notes).
+
+18 September 2026 — Added Contact Us page.
+
+18 September 2026 — Styled all pages with pink and purple brand colours.
+
+18 September 2026 — Added logo to header across all pages.
+
+18 September 2026 — Added footer with copyright to all pages.
+
+18 September 2026 — Added Email field to booking form.
+
+18 September 2026 — Added Phone Number field to booking form.
+
+18 September 2026 — Reordered form fields for better user flow.
+
+18 September 2026 — Added contact details (phone and email) to footer.
+
+18 September 2026 — Updated CSS to style new form inputs.
+
+18 September 2026 — Uploaded images to Assets folder.
+
+18 September 2026 — Created README.md with project overview.
+
+18 September 2026 — Added mission, vision, and target audience to README.
+
+18 September 2026 — Created CHANGELOG.md.
+
+18 September 2026 — Final commit and push to GitHub.
+
+
 
 Testing and submission 
 
