@@ -365,6 +365,21 @@ main {
     flex: 1; /* This is the magic line - it makes main take up all remaining space */
 }
 
+.click{
+    text-align: center;
+}
+
+.clickButton{
+    background-color: #d64d7b;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
 /* 3. Keep your footer styling as is, but remove any margin-top if you want it to sit flush */
 .site-footer {
     margin-top: auto; /* Optional: further ensures footer stays at bottom */
@@ -529,6 +544,7 @@ main.content-section {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .service-card img {
