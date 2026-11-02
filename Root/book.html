@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Nail Appointment | Stained.By.Jenn Soweto</title>
+  <meta name="description" content="Book your nail appointment with Stained.By.Jenn in Protea Glen, Soweto. Choose a design, date and time and get a confirmation from Jenn.">
+  <meta name="keywords" content="book nails Soweto, nail appointment Protea Glen, book acrylic nails, book gel nails, nail technician booking, Stained.By.Jenn booking">
+  <meta name="author" content="Stained.By.Jenn">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#be8296">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Book a Nail Appointment | Stained.By.Jenn Soweto">
+  <meta property="og:description" content="Book your nail appointment with Stained.By.Jenn in Protea Glen, Soweto. Choose a design, date and time and get a confirmation from Jenn.">
+  <meta property="og:image" content="images/pink-ombre-zebra-swirl-long-nails.webp">
+  <meta property="og:locale" content="en_ZA">
+  <link rel="icon" type="image/webp" href="images/stained-by-jenn-logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="logo-link" aria-label="Stained.By.Jenn home">
+        <img src="images/stained-by-jenn-logo.webp" alt="Stained.By.Jenn logo: a gold hand holding nail polish above pink script lettering" class="logo" width="64" height="64">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html" aria-current="page">Book</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container page-header">
+      <h1>Book your appointment</h1>
+      <p>Tell us what you would like and when. Jenn confirms by email or WhatsApp.</p>
+    </div>
+
+    <div class="container form-wrap">
+      <div>
+        <div class="error-summary" id="error-summary" role="alert" tabindex="-1" hidden>
+          <h2>Please fix these before sending</h2>
+          <ul></ul>
+        </div>
+
+        <form id="booking-form" class="form-card" novalidate aria-describedby="form-status">
+          <p class="hint">Fields marked <span class="req">*</span> are required.</p>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="b-name">Full name <span class="req">*</span></label>
+              <input type="text" id="b-name" name="name" autocomplete="name" aria-describedby="b-name-err">
+              <p class="field-error" id="b-name-err"></p>
+            </div>
+            <div class="field">
+              <label for="b-phone">Phone or WhatsApp <span class="req">*</span></label>
+              <input type="tel" id="b-phone" name="phone" autocomplete="tel" placeholder="e.g. 067 058 0329" aria-describedby="b-phone-err">
+              <p class="field-error" id="b-phone-err"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="b-email">Email address <span class="req">*</span></label>
+            <input type="email" id="b-email" name="email" autocomplete="email" placeholder="you@example.com" aria-describedby="b-email-err">
+            <p class="field-error" id="b-email-err"></p>
+          </div>
+
+          <div class="field">
+            <label for="b-service">Design or service <span class="req">*</span></label>
+            <select id="b-service" name="service" aria-describedby="b-service-err">
+              <option value="">Choose a design</option>
+            </select>
+            <p class="field-error" id="b-service-err"></p>
+          </div>
+
+          <div class="estimate" id="estimate" hidden>
+            <p class="est-name"></p>
+            <p>Listed price: <strong></strong></p>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="b-date">Preferred date <span class="req">*</span></label>
+              <input type="date" id="b-date" name="date" aria-describedby="b-date-err">
+              <p class="field-error" id="b-date-err"></p>
+            </div>
+            <div class="field">
+              <label for="b-time">Preferred time <span class="req">*</span></label>
+              <select id="b-time" name="time" aria-describedby="time-hint b-time-err">
+                <option value="">Choose a time</option>
+              </select>
+              <p class="hint" id="time-hint">Pick a date first to see available times.</p>
+              <p class="field-error" id="b-time-err"></p>
+            </div>
+          </div>
+
+          <fieldset class="field" id="length-field">
+            <legend>Nail length <span class="req">*</span></legend>
+            <div class="choice-group">
+              <label class="choice"><input type="radio" name="length" id="length-short" value="Short"> Short</label>
+              <label class="choice"><input type="radio" name="length" value="Medium"> Medium</label>
+              <label class="choice"><input type="radio" name="length" value="Long"> Long</label>
+            </div>
+            <p class="field-error"></p>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Add-ons (optional)</legend>
+            <div class="choice-group">
+              <label class="choice"><input type="checkbox" name="addons" value="Charms or 3D art"> Charms or 3D art</label>
+              <label class="choice"><input type="checkbox" name="addons" value="Removal of old set"> Removal of old set</label>
+              <label class="choice"><input type="checkbox" name="addons" value="Repair of a broken nail"> Repair</label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="b-notes">Notes</label>
+            <textarea id="b-notes" name="notes" maxlength="520" placeholder="Tell us about your style, colours or inspiration" aria-describedby="notes-count b-notes-err"></textarea>
+            <p class="counter" id="notes-count">0 / 500</p>
+            <p class="field-error" id="b-notes-err"></p>
+          </div>
+
+          <div class="field">
+            <label class="choice"><input type="checkbox" id="consent" name="consent"> <span>I agree that Jenn may contact me about this booking. <span class="req">*</span></span></label>
+            <p class="field-error"></p>
+          </div>
+
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+          <button class="btn" type="submit" id="submit-btn">Send booking request</button>
+          <p class="hint" id="form-status" role="status"></p>
+          <noscript><p class="notice">This form needs JavaScript. Please <a href="https://wa.me/27670580329">message Jenn on WhatsApp</a> to book.</p></noscript>
+        </form>
+
+        <section class="confirm-card" id="confirmation" hidden aria-live="polite">
+          <h2 id="confirm-title" tabindex="-1"></h2>
+          <p id="confirm-text"></p>
+          <dl class="summary-list" id="confirm-list"></dl>
+          <div class="btn-row">
+            <a class="btn" id="confirm-whatsapp" href="https://wa.me/27670580329" rel="noopener" target="_blank">Message Jenn on WhatsApp</a>
+            <button class="btn btn--ghost" type="button" id="confirm-retry" hidden>Edit and try again</button>
+            <button class="btn btn--ghost" type="button" id="new-booking">Make another booking</button>
+          </div>
+        </section>
+      </div>
+
+      <aside class="aside-card" aria-labelledby="hours-h">
+        <h2 id="hours-h">Opening hours</h2>
+        <ul class="hours">
+          <li data-day="1"><span>Monday</span><span>9:00 – 17:30</span></li>
+          <li data-day="2"><span>Tuesday</span><span>9:00 – 17:30</span></li>
+          <li data-day="3"><span>Wednesday</span><span>9:00 – 17:30</span></li>
+          <li data-day="4"><span>Thursday</span><span>9:00 – 17:30</span></li>
+          <li data-day="5"><span>Friday</span><span>9:00 – 17:30</span></li>
+          <li data-day="6"><span>Saturday</span><span>9:00 – 15:00</span></li>
+          <li data-day="0"><span>Sunday</span><span>By appointment</span></li>
+        </ul>
+        <p>Prefer to chat? <a href="https://wa.me/27670580329" rel="noopener" target="_blank">WhatsApp 067 058 0329</a></p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <p>&copy; 2026 Stained.By.Jenn. All rights reserved.</p>
+        <p>23 Thistle Street, Protea Glen, Soweto, 1819</p>
+        <p><a href="tel:+27670580329">067 058 0329</a> &middot; <a href="mailto:StainedByJenn@gmail.com">StainedByJenn@gmail.com</a></p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="https://www.instagram.com/stained.by.jenn/" rel="noopener" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@stainedbyjenn" rel="noopener" target="_blank">TikTok</a>
+  
+      </nav>
+    </div>
+  </footer>
+  <script src="js/designs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/forms.js"></script>
+</body>
+</html>

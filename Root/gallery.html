@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nail Art Gallery and Prices | Stained.By.Jenn Soweto</title>
+  <meta name="description" content="Browse Stained.By.Jenn nail designs with prices: stiletto, almond, french tips, gel and acrylic sets. Search, enlarge and book your favourite.">
+  <meta name="keywords" content="nail art gallery, nail designs Soweto, stiletto nails, almond nails, french tip nails, acrylic nails prices, gel overlay, nail art Johannesburg">
+  <meta name="author" content="Stained.By.Jenn">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#be8296">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nail Art Gallery and Prices | Stained.By.Jenn Soweto">
+  <meta property="og:description" content="Browse Stained.By.Jenn nail designs with prices: stiletto, almond, french tips, gel and acrylic sets. Search, enlarge and book your favourite.">
+  <meta property="og:image" content="images/pink-butterfly-stiletto-nail-art.webp">
+  <meta property="og:locale" content="en_ZA">
+  <link rel="icon" type="image/webp" href="images/stained-by-jenn-logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="index.html" class="logo-link" aria-label="Stained.By.Jenn home">
+        <img src="images/stained-by-jenn-logo.webp" alt="Stained.By.Jenn logo: a gold hand holding nail polish above pink script lettering" class="logo" width="64" height="64">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="book.html">Book</a>
+        <a href="contact.html">Contact us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container page-header">
+      <h1>Our nail artistry</h1>
+      <p>Select any photo to enlarge it. Found something you love? Book it in one click.</p>
+    </div>
+
+    <section class="container" aria-label="Gallery">
+      <form id="search-form" class="gallery-tools" role="search">
+        <div class="search-field">
+          <label for="gallery-search">Search designs</label>
+          <input type="search" id="gallery-search" placeholder="Try &quot;french&quot;, &quot;stiletto&quot; or &quot;900&quot;" autocomplete="off">
+        </div>
+        <div>
+          <span class="visually-hidden" id="chips-label">Filter by category</span>
+          <div class="chips" id="category-chips" role="group" aria-labelledby="chips-label"></div>
+        </div>
+      </form>
+      <p class="result-count" id="result-count" aria-live="polite"></p>
+      <ul class="gallery-grid" id="gallery-grid" style="list-style:none;padding:0;margin:0"></ul>
+      <div class="empty-state" id="gallery-empty" hidden>
+        <h2>No designs match your search</h2>
+        <p>Check the spelling, try a shorter word such as &ldquo;french&rdquo;, or choose &ldquo;All&rdquo; to see every design.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged nail design">
+    <button type="button" class="lightbox-btn lightbox-close" id="lightbox-close" aria-label="Close enlarged photo">&times;</button>
+    <button type="button" class="lightbox-btn lightbox-prev" id="lightbox-prev" aria-label="Previous design">&#8249;</button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption class="lightbox-caption">
+        <strong id="lightbox-name"></strong>
+        <span id="lightbox-look"></span><br>
+        <span class="lightbox-counter" id="lightbox-count" aria-live="polite"></span><br>
+        <a class="btn btn--small" id="lightbox-book" href="book.html" style="margin-top:.6rem">Book this design</a>
+      </figcaption>
+    </figure>
+    <button type="button" class="lightbox-btn lightbox-next" id="lightbox-next" aria-label="Next design">&#8250;</button>
+  </div>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <p>&copy; 2026 Stained.By.Jenn. All rights reserved.</p>
+        <p>23 Thistle Street, Protea Glen, Soweto, 1819</p>
+        <p><a href="tel:+27670580329">067 058 0329</a> &middot; <a href="mailto:StainedByJenn@gmail.com">StainedByJenn@gmail.com</a></p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="https://www.instagram.com/stained.by.jenn/" rel="noopener" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@stainedbyjenn" rel="noopener" target="_blank">TikTok</a>
+  
+      </nav>
+    </div>
+  </footer>
+  <script src="js/designs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
