@@ -134,6 +134,14 @@ Sticky footer added with dark charcoal theme
 Full mobile responsiveness across all pages
 Added
 Email Address field in the booking form (Book.html)
+Rebuilt every page and fixed the broken HTML from Part 2.
+Moved the files into the Root/ folder structure.
+Compressed and renamed the images and wrote alt text.
+Added the interactive menu, filters, open-now badge and FAQ.
+Added the gallery lightbox, search and the interactive map.
+Added the SEO tags, sitemap.xml and robots.txt.
+Added the booking and contact forms with validation and email.
+Rewrote the README and changelog, added the references page, and wrote commit-plan.sh.
 
 Input type: email
 
@@ -217,26 +225,21 @@ This website is a fully functional, responsive portfolio and booking platform fo
 
 references
 
-Stained.By.Jenn, 2025. [Instagram]. Available at: https://www.bing.com/ck/a?!&&p=9ecaec9ab3a46e1805874f2eda920214c2e04db8d9eeb8a627234dee3f961c0bJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9zdGFpbmVkLmJ5Lmplbm4vcmVlbHMv [Assessed 12 August 2026]. 
+Stained.By.Jenn, 2025. [Instagram]. Available at: https://www.bing.com/ck/a?!&&p=9ecaec9ab3a46e1805874f2eda920214c2e04db8d9eeb8a627234dee3f961c0bJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9zdGFpbmVkLmJ5Lmplbm4vcmVlbHMv [Assessed 1 November 2026]. 
 
-Stainedbyjenn., 2024. Soweto masterpiece by Stained By Jenn [TikTok]. Available at: https://www.bing.com/ck/a?!&&p=f3d8ffc64a67aa4a53da170336a7456b9ae5ef7312baff46b88ff0271c163e9fJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cudGlrdG9rLmNvbS9Ac3RhaW5lZGJ5amVubi92aWRlby83NjM3MTcwNzg2MjA1NDUzNTg5 [Assessed 12 August 2026]
+Stainedbyjenn., 2024. Soweto masterpiece by Stained By Jenn [TikTok]. Available at: https://www.bing.com/ck/a?!&&p=f3d8ffc64a67aa4a53da170336a7456b9ae5ef7312baff46b88ff0271c163e9fJmltdHM9MTc4NjU3OTIwMA&ptn=3&ver=2&hsh=4&fclid=314d14aa-44de-6903-1710-031e451768e0&psq=stained+by+jenn&u=a1aHR0cHM6Ly93d3cudGlrdG9rLmNvbS9Ac3RhaW5lZGJ5amVubi92aWRlby83NjM3MTcwNzg2MjA1NDUzNTg5 [Assessed 1 November2026]
 
-stainedbyjenn 2024. Nude nails with lilac French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
+stainedbyjenn 2024. Nude nails with lilac French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026].
 
-stainedbyjenn 2024. Nude nails with hot pink French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
+stainedbyjenn 2024. Nude nails with hot pink French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026].
 
-stainedbyjenn 2024. Nude nails with blue and gold abstract art [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
+stainedbyjenn 2024. Nude nails with blue and gold abstract art [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026]
 
-stainedbyjenn 2024. Long acrylic nails with black, blue, and white swirl design [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
+stainedbyjenn 2024. Long acrylic nails with black, blue, and white swirl design [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026]
+stainedbyjenn 2024. Nude nails with silver glitter French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026]
+stainedbyjenn 2024. Nude nails with white marble and gold flake design [image]. Available at: https://www.instagram.com/stainedbyjenn/[Accessed 1 November 2026]
+stainedbyjenn 2025. Bright pink square acrylic nails [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026]
+stainedbyjenn 2026. Pink nails with orange flower art and gold accents [image]. Available at: https://www.instagram.com/stainedbyjenn/[Accessed 1 November 2026]
 
-stainedbyjenn 2024. Nude nails with silver glitter French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
-
-stainedbyjenn 2024. Nude nails with white marble and gold flake design [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
-
-stainedbyjenn 2025. Bright pink square acrylic nails [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
-
-stainedbyjenn 2026. Pink nails with orange flower art and gold accents [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
-
-stainedbyjenn 2024. Nude nails with white and blue stiletto tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
-
-stainedbyjenn 2024. Nude nails with black glitter French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 18 September 2026].
+stainedbyjenn 2024. Nude nails with white and blue stiletto tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026]
+stainedbyjenn 2024. Nude nails with black glitter French tips [image]. Available at: https://www.instagram.com/stainedbyjenn/ [Accessed 1 November 2026].
