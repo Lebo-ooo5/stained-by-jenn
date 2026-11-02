@@ -189,6 +189,30 @@ Header navigation with logo
 Booking form with date and notes fields
 
 Footer with copyright
+# Stained.By.Jenn Website Project
+
+## Project Description
+This website is a fully functional, responsive portfolio and booking platform for **Stained.By.Jenn**, a professional nail technician business based in Protea Glen, Soweto. The site is designed with a soft, elegant pink aesthetic and features dynamic, interactive elements that provide a seamless user experience for clients looking to view nail art or book an appointment.
+
+## Technologies Used
+*   **HTML5:** Semantic structuring for accessibility and SEO.
+*   **CSS3:** Custom styling, Flexbox/Grid layouts, CSS variables, and mobile responsive media queries.
+*   **JavaScript (Vanilla):** DOM manipulation for interactivity (Hamburger menu, Form validation, Live Search).
+*   **GLightbox:** A pure JavaScript library for the responsive image lightbox in the gallery.
+*   **Leaflet.js:** An open-source JavaScript library for the interactive, custom-mapped location on the Contact page.
+*   **Formspree:** A third-party service used to handle email processing for the contact form without needing backend server code.
+
+## Key Features Implemented
+*   **Responsive Design:** The website is fully mobile-friendly. The navigation collapses into a hamburger menu on smaller screens.
+*   **Dynamic Content & Search:** The Gallery page features a real-time search filter that dynamically hides/shows nail art cards based on user input.
+*   **Interactive Elements:** 
+    *   A JavaScript-powered mobile navigation menu.
+    *   A comprehensive image lightbox (GLightbox) that allows users to click and enlarge images, complete with touch-swipe support for mobile.
+*   **Interactive Map:** A custom Leaflet map embedded on the Contact page with a marker and popup detailing the studio location.
+*   **Functional Forms:**
+    *   **Enquiry (Booking) Form:** Features HTML5 validation (required fields) and a JavaScript response that calculates estimated pricing and confirms availability based on the selected service and date.
+    *   **Contact Form:** Integrated with Formspree for reliable email processing. 
+*   **SEO Optimization:** Every page includes unique, keyword-rich `<title>` tags, `<meta name="description">` tags, `<meta name="keywords">`, and fully descriptive `alt` text on all images.
 
 
 references
